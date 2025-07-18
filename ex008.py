@@ -3,7 +3,7 @@ print('=' * 40)
 print ('C O N V E R S O R  D E  M E D I D A S '.center(40))
 print('=' * 40)
 M = float(input('Coloque a medida em Metros: '))
-C = M * 100
-Mili = M * 1000
-print(f'Centímetros = {C:.2f} cm')
-print(f'Milímetros = {Mili:.2f} mn')
+cm = M * 100
+mn = M * 1000
+print(f'Centímetros = {cm:.2f} cm')
+print(f'Milímetros = {mn:.2f} mn')
