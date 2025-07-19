@@ -1,11 +1,12 @@
 #EXERCÍCICO 017: Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente, calcule e mostre o comprimento da hipotenusa.
 import math
 
+
 CA = float(input('Digite o comprimento do cateto adjacente ---> '))
 CO = float(input('Digite o comprimento do cateto oposto ---> '))
-H = (CA * CA) + (CO * CO)
-H = H ** (1/2)
-print(f'O comprimento da hipotenusa é: {H:.2f} cm')
+H1 = (CA * CA) + (CO * CO)
+H2 = H1 ** (1/2)
+print(f'O comprimento da hipotenusa é: {H2:.2f} cm')
 
 
 
@@ -17,5 +18,7 @@ Hipotenusa = math.sqrt(Hipotenusa)
 print(f'O comprimento da hipotenusa é {Hipotenusa:.2f} cm')
 
 
-
-''
+ca = float(input('Digite o comprimento do cateto adjacente ---> '))
+co = float(input('Digite o comprimento do cateto oposto ---> '))
+h = math.hypot(ca,co)
+print(f'O comprimento da hipotenusa é {h:.2f} cm')
