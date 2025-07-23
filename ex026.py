@@ -8,4 +8,4 @@ EXERCÍCIO 026: Faça um programa que leia uma frase pelo teclado e mostre:
 frase = str(input('Digite um texto qualquer: '))
 print(f'A letra "a" apareceu {frase.count('a')} vezes.')
 print(f'Ela apareceu a primeira vez na frase no índice {frase.find('a')}')
-print(f'Ela apareceu pela última vez na frase no índice {frase.count('a', -1)}')
+print(f'Ela apareceu pela última vez na frase no índice {frase.rfind('a')}')
